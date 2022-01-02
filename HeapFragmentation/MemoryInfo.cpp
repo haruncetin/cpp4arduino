@@ -8,6 +8,8 @@
 #include "Ports/MemoryInfo.Avr.cpp"
 #elif defined(ARDUINO_ARCH_ESP8266)
 #include "Ports/MemoryInfo.Esp8266.cpp"
+#elif defined(ARDUINO_ARCH_ESP32)
+#include "ports/MemoryInfo.Esp32.cpp"
 #else
 #error Your microcontroller architecture is not supported
 #endif
